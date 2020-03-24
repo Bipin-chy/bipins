@@ -1,0 +1,124 @@
+
+body{
+  background-color: white;
+
+}
+
+/* title section */
+#title{
+  background-color: #272343;
+  color:#fff;
+  font-family: "Caveat",cursive;
+  text-align: right;
+  padding: 3% 13% 0;
+}
+.container-fluid{
+  margin-top:2%;
+
+}
+.row-margin{
+  margin-top:8%;
+}
+.profile{
+  width: 100%;
+}
+.title-header{
+  font-family: "Caveat",sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.title-pararagraph{
+  font-family: "Caveat",sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* skill section */
+
+#Skill{
+  padding: 2% 13%;
+  text-align: center;
+color: #272343;
+}
+.skill-text{
+  text-align: right;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.skill-text1{
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* funny_stuffs */
+
+#fun-stuffs{
+  padding: 2% 13%;
+  text-align: center;
+  color: #272343;
+}
+.fun-text{
+  font-family: "Caveat",cursive;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+/* academic section */
+#academic{
+  background-color: #272343;
+  margin: 2rem 0;
+  color: #fff;
+}
+.academic-image{
+  width:200px;
+  border-radius: 100%;
+  padding: 12px;
+  float:left;
+}
+.carousel-item{
+  padding:5% 15% 2%;
+}
+
+.title-pararagraph1{
+  font-family: "Merriweather",sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+
+/* contact section */
+.row-button{
+  text-align: center;
+}
+
+/* footer section */
+#footer{
+  padding: 2% 13% 0;
+  text-align: center;
+  color: #272343;
+
+}
+
+.footer-pad{
+  padding: 5px 15px;
+}
+
+.footer-icon:hover{
+  color:#272343;
+}
+
+@media(max-width:1028px) {
+  .title-header{
+    text-align:center;
+  }
+}
